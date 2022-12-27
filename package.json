@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-toolbox",
+  "version": "1.0.0",
+  "author": "Netlify Inc",
+  "contributors": [
+    "Tara Manicsic",
+    "Prince Wilson",
+    "Charlie Gerard",
+    "Ben Hong"
+  ],
+  "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
+  "bugs": {
+    "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "cypress": "^10.0.3",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "netlify-plugin-cypress": "2.2.0"
+  }
+}
